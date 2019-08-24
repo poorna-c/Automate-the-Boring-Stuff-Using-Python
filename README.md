@@ -13,3 +13,14 @@ Simple Scripts that automate your daily tasks.
 #1) It can't identify the notes that i may have with less than 100 Bytes, and delete all the files with less than 100 Bytes.
         
    
+### #2) Junk File Folder Generator
+  #### Problem:
+        In my Previous Script, Solved the problem of deleting the empty files and folders. To test the preformence
+    I have written another script that creates lot of Empty Folders and Files.
+        
+  #### Warning:
+        This script uses/creates lots of system interrupts if it run infinitely and may cause harm. So to Create
+    junk files and folders use only fixed no. of iterations. If the script run Infinitely It keeps on generate 
+    lots of junk folders and files in them.
+  #### Legality:
+        Running this script infinitely on someones system would fill his/her harddisk with lots of junk files.

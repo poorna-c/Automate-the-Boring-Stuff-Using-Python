@@ -21,9 +21,15 @@ def createJunk(path,count,deep=False):
                 os.chdir(os.path.join(path,ustr))
                 lstr = "".join(random.sample(charset,k=30))
                 os.mkdir(lstr)
-                # The Following code crates an empty file in every folder
-                os.chdir(os.path.join(path,ustr,lstr))
-                istr = "".join(random.sample(charset,k=30))
-                open(f"{istr}.txt",'w').close()
+                # The Following code crates only one empty file in every folder
+            	# os.chdir(os.path.join(path,ustr,lstr))
+            	# istr = "".join(random.sample(charset,k=30))
+            	# open(f"{istr}.txt",'w').close()
+
+                # The below code creates Lots of empty files in one folder
+                for i in range(count):
+                	os.chdir(os.path.join(path,ustr,lstr))
+                	istr = "".join(random.sample(charset,k=30))
+                	open(f"{istr}.txt",'w').close()
 
 createJunk(BASEDIR,count,deep)

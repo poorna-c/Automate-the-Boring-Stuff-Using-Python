@@ -23,14 +23,18 @@ Simple Scripts that automate your daily tasks.
         This script uses/creates lots of system interrupts if it run infinitely and may cause harm. So to Create
     junk files and folders use only fixed no. of iterations. If the script run Infinitely It keeps on generate 
     lots of junk folders and files in them.
-  ### Legality:
-        Running this script infinitely on someones system would fill his/her harddisk with lots of junk files.
-#### Images:      
+
+### Images:      
+##### Folders:
 ![003](https://user-images.githubusercontent.com/46214838/63634331-74d1f900-c672-11e9-9116-0122275a42a2.PNG)
+------------------------------------------------------------------------------------------------------------
+##### Files:
 ![004](https://user-images.githubusercontent.com/46214838/63634448-2d4c6c80-c674-11e9-82c9-5aaa72c80704.PNG)
 
-      The script tool only 50 Sec to generate 3884 Folders and 432725 Files. But to delete those files it took
-      387 Sec == 6.45 Min. 
+  ### Legality:
+        Running this script infinitely on someones system would fill his/her harddisk with lots of junk files.
+    The script tool only 50 Sec to generate 3884 Folders and 432725 Files. But to delete those files it took
+    387 Sec == 6.45 Min. 
       
 ![005](https://user-images.githubusercontent.com/46214838/63634431-fd9d6480-c673-11e9-8d45-b3613b3ffbec.PNG)
 

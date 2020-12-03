@@ -31,7 +31,7 @@ Simple Scripts that automate your daily tasks.
 ##### Files:
 ![004](https://user-images.githubusercontent.com/46214838/63634448-2d4c6c80-c674-11e9-82c9-5aaa72c80704.PNG)
 
-  ### Legality:
+  ### Leegality:
         Running this script infinitely on someones system would fill his/her harddisk with lots of junk files.
     The script tool only 50 Sec to generate 3884 Folders and 432725 Files. But to delete those files it took
     387 Sec == 6.45 Min. 
